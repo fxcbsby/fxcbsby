@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>鑫雪源</title>
+<style>
+    p{
+        padding: 0;
+        margin: 5px;
+    }
+    #iframe{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+    }
+    #bottom{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 100px;
+        z-index: 1;
+        background: #49bc85;
+        text-align: center;
+        padding-top: 10px;
+        box-sizing: border-box;
+        color: white;
+    }
+    #bottom img{
+        vertical-align: middle;
+        height: 80px;
+    }
+    #bottom .tel{
+        display: inline-block;
+        text-align: left;
+        vertical-align: middle;
+        font-size: 14px;
+    }
+    #left-side{
+        position: fixed;
+        width: 200px;
+        z-index: 1;
+        top: 200px;
+        padding-left: 10px;
+        left: 0;
+    }
+
+    .layer{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,.3);
+        z-index: 2;
+    }
+    #scale{
+        position: relative;
+        top: 3%;
+        width: 60%;
+        left: 20%;
+    }
+    #top-side{
+        position: absolute;
+        z-index: 1;
+        width: calc(100% - 50px);;
+        height: 60px;
+        top: 0;
+        background: #49bc85;
+    }
+</style>
+</head>
+<body>
+    <div id="top-side"></div>
+    <div id="bottom">
+        <div class="tel">
+            <p style="margin-top: 15px;">厂家微信号：zxh50989559</p>
+            <p>厂家联系电话：13382189987</p>
+        </div>
+        
+    </div>
+    <!-- <div id="bottom"></div> -->
+    <iframe id="iframe" src="https://1215712351.x.yupoo.com/albums" frameborder="0"></iframe>
+    <div class="layer" style="display: none;">
+        <img id="scale" src="" alt="">
+    </div>
+    <script>
+        
+    </script>
+</body>
+</html>
